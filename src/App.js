@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, Route, Routes, } from "react-router-dom";
+import './App.css';
 import Intro from './Intro'
 import Survey from './Survey'
 import Results from './Results'

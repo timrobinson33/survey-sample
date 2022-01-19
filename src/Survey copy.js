@@ -1,13 +1,10 @@
-import { Survey as SurveyJs, StylesManager, defaultBootstrapCss } from 'survey-react'
+import { Survey as SurveyJs, StylesManager } from 'survey-react'
 import './Survey.css';
 //import 'survey-react/survey.min.css'
 
-StylesManager.applyTheme("bootstrap")
+//StylesManager.applyTheme("bootstrap")
 
 export default function Survey() {
-
-  //Custom styles
-  defaultBootstrapCss.navigationButton = "sv-button-link";
 
   const surveyData = {
     title: `Professional Map assessement tool - Insurance band 2 Underwriting`,
@@ -52,17 +49,14 @@ export default function Survey() {
     }]
   }
 
+
   return (
     <div>
       <div className="App">
-        <div class="row w-100 m-0">
-          <div class="row m-0 p-0 justify-content-center">
-            <SurveyJs
-              json={surveyData}
-              sendResultOnPageNext={true}
-            />
-          </div>
-        </div>
+        <SurveyJs
+          json={surveyData}
+          sendResultOnPageNext={true}
+        />
       </div>
     </div>
   )
