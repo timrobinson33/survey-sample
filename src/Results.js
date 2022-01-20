@@ -1,3 +1,4 @@
+import './Results.css';
 import ResultsRadar from './ResultsRadar';
 import ResultsTable from './ResultsTable';
 
