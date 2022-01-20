@@ -26,14 +26,14 @@ export default function ResultsRadar() {
             {
                 label: 'Ability',
                 data: [4.5, 4.3, 1.6, 3.3],
-                backgroundColor: 'rgba(255, 128, 128, 0.2)',
-                borderColor: 'rgba(255, 0, 0, 1)',
+                backgroundColor: 'rgba(165, 102, 73, 0.2)',
+                borderColor: 'rgba(165, 102, 73, 1)',
             },
             {
                 label: 'Importance',
                 data: [4.1, 1.9, 3.6, 2.6],
-                backgroundColor: 'rgba(128, 128, 255, 0.2)',
-                borderColor: 'rgba(0, 0, 255, 1)',
+                backgroundColor: 'rgba(90, 144, 167, 0.2)',
+                borderColor: 'rgba(90, 144, 167, 1)',
             },
         ]
     }
