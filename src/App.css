@@ -5,13 +5,16 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-h1, h3, h3 span, h4, h4 span {
+h1, h2, h3, h3 span, h4, h4 span {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
 h1 span {
     color: rgb(127,127,127);
+}
+h2 {
+    text-align: left;
 }
 h3, h3 span {
     font-size: 26px;
