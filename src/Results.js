@@ -20,7 +20,7 @@ export default function Results() {
         <div class="col-10 d-flex justify-content-center">
           <ResultsRadar />
         </div>
-        <div class="col-10 d-flex justify-content-center">
+        <div class="col-12 d-flex justify-content-center">
           <ResultsTable />
         </div>
       </div>
