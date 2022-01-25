@@ -4,6 +4,7 @@ import './App.css';
 import Intro from './Intro'
 import Survey from './Survey'
 import Results from './Results'
+import 'iframe-resizer/js/iframeResizer.contentWindow.min.js'
 
 export default function App() {
   return (
