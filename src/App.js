@@ -6,7 +6,6 @@ import Survey from './Survey'
 import Results from './Results'
 
 export default function App() {
-
   return (
     <div>
       <Routes>
