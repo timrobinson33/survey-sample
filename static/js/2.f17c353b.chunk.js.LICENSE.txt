@@ -1033,6 +1033,14 @@ object-assign
 
 /*! exports provided: welshSurveyStrings */
 
+/*! iFrame Resizer (iframeSizer.contentWindow.min.js) - v4.3.2 - 2021-04-26
+ *  Desc: Include this file in any page being loaded into an iframe
+ *        to force the iframe to resize to the content size.
+ *  Requires: iframeResizer.min.js on host page.
+ *  Copyright: (c) 2021 David J. Bradshaw - dave@bradshaw.net
+ *  License: MIT
+ */
+
 /*! no exports provided */
 
 /*! no static exports found */
