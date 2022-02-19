@@ -8,6 +8,25 @@
 .sv_main .sv_header__text {
     display: inline !important;
 }
+.sv_main .sv-hidden.show-text {
+    padding-left: 0;
+    display: block !important;
+}
+.sv_main .sv-hidden.show-text.inbar {
+    display: none !important;
+}
+.sv-progress-text {
+    color: #4e4e4d !important;
+    position: absolute;
+    margin-top: 24px;
+    color: #9d9d9d;
+    font-size: .87em;
+    font-weight: bold;
+    padding-left: .6321em;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 150%;
+}
 .panel-heading.card-header::after, h4::after {
     content: "";
     background-color: rgb(153,153,153);
@@ -30,11 +49,16 @@ h4.sv_p_title::after {
 
 /* Progress bar styles */
 .sv_main.sv_main .progress {
-    width: 80% !important;
-    margin-bottom: 50px !important;
+    width: 100% !important;
+    margin-bottom: 85px !important;
 }
 .progress {
+    background-color: #e7e6e6 !important;
+    height: 7px !important;
+    margin-bottom: 60px;
     border-radius: 0 !important;
+    position: relative;
+    overflow: visible !important;
 }
 .progress-bar {
     background-color: #5a90a7 !important;

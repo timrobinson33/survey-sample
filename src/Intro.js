@@ -4,7 +4,6 @@ import './Intro.css';
 export default function Intro({ respondent, competencies }) {
   return (
     <div class="row w-100 m-0">
-
       <div class="member-title text-md-center pt-5 pb-3 pb-md-4 mb-0">
         <div class="container container-alt">
           <div class="row">

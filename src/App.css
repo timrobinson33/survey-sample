@@ -127,6 +127,9 @@ p a:hover {
         margin-right: auto;
         font-size: 1.9rem;
     }
+    .member-text p {
+        width: 70%;
+    }
     .member-button-link {
         width: auto;
     }
