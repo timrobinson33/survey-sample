@@ -29,7 +29,7 @@ h4.sv_p_title, h4.sv_p_title span {
     line-height: 120%;
 }
 p {
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
     font-weight: 400;
     line-height: 150%;
 }

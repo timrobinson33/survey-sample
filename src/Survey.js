@@ -10,6 +10,8 @@ export default function Survey() {
   defaultBootstrapCss.navigationButton = "sv-button-link";
   defaultBootstrapCss.progressText = "sv-progress-text show-text";
   defaultBootstrapCss.progressTextInBar = "inbar sv-hidden";
+  defaultBootstrapCss.headerText = "sv-header__text";
+  defaultBootstrapCss.pageDescription = "sv-description sv-page__description";
 
   const surveyData = {
     //title: `Professional Map assessement tool - Insurance band 2 Underwriting`,
