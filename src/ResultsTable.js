@@ -1,31 +1,66 @@
 export default function ResultsTable() {
-    return <table class="col-11 mb-6" border="1">
-        <thead>
-            <td></td>
-        </thead>
-        <tbody>
-            <th>
-                <td>
-                    <h2>Financial Advice and Planning</h2>
-                </td>
-            </th>
-            <tr>
-                <td>I am interested in why things are done in certain ways, and question beyond the obvious</td>
-            </tr>
-            <tr>
-                <td>some other statement</td>
-            </tr>
-            <th>
-                <td>
-                    <h2>Second competency</h2>
-                </td>
-            </th>
-            <tr>
-                <td>A statement</td>
-            </tr>
-            <tr>
-                <td>some other statement</td>
-            </tr>
-        </tbody>
-    </table>
+    return <div class="row w-100 mb-5 results-infowrapper">
+        <div class="results-inforow mb-4">
+            <div class="result-rowheading">
+                <h4 class="mb-4 pb-3">Curiosity</h4>
+            </div>
+            <div class="row result-rowinfo">
+                <div class="col-lg-3 col-md-12 mb-md-3 pe-2">
+                    <ul>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 pe-2">
+                    <ul>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                    </ul>                
+                </div>
+                <div class="col-lg-3 col-md-4 pe-2">
+                    <ul>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                    </ul>                
+                </div>
+                <div class="col-lg-3 col-md-4 pe-2">
+                    <ul>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="results-inforow mb-4">
+            <div class="result-rowheading">
+                <h4 class="mb-4 pb-3">Customer focus</h4>
+            </div>
+            <div class="row result-rowinfo">
+                <div class="col-lg-3 col-md-12 mb-md-3 pe-2">
+                    <ul>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 pe-2">
+                    <ul>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                    </ul>                
+                </div>
+                <div class="col-lg-3 col-md-4 pe-2">
+                    <ul>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                    </ul>                
+                </div>
+                <div class="col-lg-3 col-md-4 pe-2">
+                    <ul>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 }

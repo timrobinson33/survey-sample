@@ -6,7 +6,7 @@ body {
     /*font-family: Helvetica, Arial, sans-serif;*/
 }
 
-h1, h2, h3, h3 span, h4, h4 span {
+h1, h2, h4, h4 span {
     color: #4e4e4d;
     font-size: 1.9rem;
     font-weight: 500;
@@ -16,8 +16,10 @@ h1 strong, h2 strong, h3 strong, h4 strong {
     font-weight: 700;
 }
 h3 {
-    margin-bottom: 0 !important;
-    text-transform: uppercase;
+    color: #676767;
+    margin-bottom: 1.5em !important;
+    font-size: 1.6rem;
+    font-weight: 500;
 }
 h4.sv_p_title, h4.sv_p_title span {
     font-size: 20px;
@@ -45,8 +47,8 @@ p a:hover {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
 }
 .row {
     --bs-gutter-x: 0 !important;
@@ -119,6 +121,9 @@ p a:hover {
     .member-title h2 {
         font-size: 1.5rem;
     }
+    .row.row-alt .container {
+        max-width: 540px;
+    }
 }
 @media screen and (min-width: 768px) {
     .member-title h2 {
@@ -132,6 +137,11 @@ p a:hover {
     }
     .member-button-link {
         width: auto;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .row.row-alt .container {
+        max-width: 1320px;
     }
 }
 @media screen and (max-width: 576px) {
