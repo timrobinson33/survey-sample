@@ -6,7 +6,7 @@ StylesManager.applyTheme("bootstrap")
 
 export default function Survey() {
 
-  //Custom styles
+  //Custom survey classes
   defaultBootstrapCss.navigationButton = "sv-button-link";
   defaultBootstrapCss.progressText = "sv-progress-text show-text";
   defaultBootstrapCss.progressTextInBar = "inbar sv-hidden";
@@ -15,6 +15,12 @@ export default function Survey() {
   defaultBootstrapCss.rating.root = "sv-rating";
   defaultBootstrapCss.rating.item = "sv-rating__item";
   defaultBootstrapCss.rating.selected = "sv-rating__item--selected";
+  defaultBootstrapCss.navigation.complete = "sv-btn sv-footer__complete-btn";
+  defaultBootstrapCss.navigation.prev = "sv-btn sv-footer__prev-btn";
+  defaultBootstrapCss.navigation.next = "sv-btn sv-footer__next-btn";
+  defaultBootstrapCss.navigation.start = "sv-btn sv-footer__start-btn";
+  defaultBootstrapCss.navigation.preview = "sv-btn sv-footer__preview-btn";
+  defaultBootstrapCss.navigation.edit = "sv-btn sv-footer__edit-btn";
 
   const surveyData = {
     //title: `Professional Map assessement tool - Insurance band 2 Underwriting`,
