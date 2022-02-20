@@ -34,7 +34,7 @@ export default function Results() {
           <h3>Your results</h3>
         </div>
       </div>
-      <div class="row row-alt w-100">
+      <div class="row row-alt w-100 mb-3">
         <div class="col-md-6 d-flex justify-content-center">
           <ResultsRadar />
         </div>
