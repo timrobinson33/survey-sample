@@ -2,6 +2,9 @@
     padding-left: 15px !important;
     padding-right: 15px !important;
 }
+.row .results-heading h3 {
+    font-size: 1.6rem;
+}
 
 /* Radar styles */
 .res-radar-wrapper {
