@@ -31,6 +31,9 @@
     text-transform: uppercase;
     display: block;
 }
+.dial-column img {
+    max-width: 250px;
+}
 .result-rowinfo ul {
     padding-left: 1rem;
 }
@@ -40,28 +43,15 @@
     font-size: 0.9rem;
     line-height: 150%;
 }
-table {
-    background-color: #5a90a7;
-    border-color: #fff;
-    border-style: solid;
-    color: #fff;
-    margin-bottom: 45px;
-}
-table tbody tr:last-child td {
-    margin-bottom: 40px;
-}
-table tbody th td {
-    padding: 1.25em 1.25em 0.5em;
-}
-table tbody tr td {
-    border-bottom: 1px solid rgba(255,255,255, 0.25);
-    padding: 0.5em 1.25em 0.5em;
-}
-table tbody th td, table tbody tr td {
-    width: 100%;
-    display: block;
-}
 
+@media screen and (min-width: 992px) {
+    .dial-column.text-center {
+        text-align: left !important;
+    }
+    .mb-4.dial-column {
+        //margin-bottom: 0 !important;
+    }
+}
 @media screen and (min-width: 768px) {
     .row .results-heading {
         padding-left: 0 !important;
