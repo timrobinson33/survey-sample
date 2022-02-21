@@ -1,6 +1,6 @@
 import doinggreat from './img/dial_doing_great.svg';
 import needswork from './img/dial_needs_work.svg';
-import forimprovement from './img/dial_room_for_improvement.svg';
+import forimprovement from './img/dial_for_improvement.svg';
 export default function ResultsTable() {
     return <div class="row w-100 mb-5 results-infowrapper">
         <div class="results-inforow mb-5">
