@@ -11,21 +11,21 @@ export default function ResultsTable() {
                 <div class="col-lg-3 col-md-12 mb-4 mb-lg-0 px-2 dial-column text-center">
                     <img src={doinggreat} alt="Doing great dial" title="Doing great" />
                 </div>
-                <div class="col-lg-3 col-md-4 pe-5">
+                <div class="col-lg-3 col-md-4 pe-md-5 mb-3">
                     <h5 class="icon-title icon-work">Needs work</h5>
                     <ul>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                     </ul>                
                 </div>
-                <div class="col-lg-3 col-md-4 pe-5">
+                <div class="col-lg-3 col-md-4 pe-md-5 mb-3">
                     <h5 class="icon-title icon-improvement">Room for improvement</h5>
                     <ul>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                     </ul>                
                 </div>
-                <div class="col-lg-3 col-md-4 pe-5">
+                <div class="col-lg-3 col-md-4 pe-md-5 mb-3">
                     <h5 class="icon-title icon-great">Doing great</h5>
                     <ul>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
@@ -42,21 +42,21 @@ export default function ResultsTable() {
                 <div class="col-lg-3 col-md-12 mb-4 mb-lg-0 px-2 dial-column text-center">
                     <img src={needswork} alt="Needs work dial" title="Needs work" />
                 </div>
-                <div class="col-lg-3 col-md-4 pe-5">
+                <div class="col-lg-3 col-md-4 pe-md-5 mb-3">
                     <h5 class="icon-title icon-work">Needs work</h5>
                     <ul>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                     </ul>                
                 </div>
-                <div class="col-lg-3 col-md-4 pe-5">
+                <div class="col-lg-3 col-md-4 pe-md-5 mb-3">
                     <h5 class="icon-title icon-improvement">Room for improvement</h5>
                     <ul>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                     </ul>                
                 </div>
-                <div class="col-lg-3 col-md-4 pe-5">
+                <div class="col-lg-3 col-md-4 pe-md-5 mb-3">
                     <h5 class="icon-title icon-great">Doing great</h5>
                     <ul>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
@@ -73,21 +73,21 @@ export default function ResultsTable() {
                 <div class="col-lg-3 col-md-12 mb-4 mb-lg-0 px-2 dial-column text-center">
                     <img src={forimprovement} alt="Room for improvement dial" title="Room for improvement" />
                 </div>
-                <div class="col-lg-3 col-md-4 pe-5">
+                <div class="col-lg-3 col-md-4 pe-md-5 mb-3">
                     <h5 class="icon-title icon-work">Needs work</h5>
                     <ul>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                     </ul>                
                 </div>
-                <div class="col-lg-3 col-md-4 pe-5">
+                <div class="col-lg-3 col-md-4 pe-md-5 mb-3">
                     <h5 class="icon-title icon-improvement">Room for improvement</h5>
                     <ul>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                     </ul>                
                 </div>
-                <div class="col-lg-3 col-md-4 pe-5">
+                <div class="col-lg-3 col-md-4 pe-md-5 mb-3">
                     <h5 class="icon-title icon-great">Doing great</h5>
                     <ul>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>

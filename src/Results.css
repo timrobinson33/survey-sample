@@ -38,6 +38,10 @@ h5.icon-title {
 .results-infowrapper {
     border-bottom: 1px solid #dadada;
 }
+.results-inforow {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
 .result-rowheading h4 {
     color: #676767;
     border-bottom: 1px solid #dadada;
@@ -69,7 +73,7 @@ h5.icon-title {
     }
 }
 @media screen and (min-width: 768px) {
-    .row .results-heading {
+    .row .results-heading, .results-inforow {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
