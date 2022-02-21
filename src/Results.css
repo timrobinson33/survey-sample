@@ -5,6 +5,22 @@
 .row .results-heading h3 {
     font-size: 1.6rem;
 }
+h5.icon-title {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 26px auto;
+    color: #676767;
+    margin-bottom: 0.6em;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    font-size: 0.9em;
+    font-weight: 700;
+    line-height: 1em;
+}
+.icon-work {background-image: url('img/icon_needs_work.svg');}
+.icon-improvement {background-image: url('img/icon_for_improvement.svg');}
+.icon-great {background-image: url('img/icon_doing_great.svg');}
 
 /* Radar styles */
 .res-radar-wrapper {
@@ -49,7 +65,7 @@
         text-align: left !important;
     }
     .mb-4.dial-column {
-        //margin-bottom: 0 !important;
+        /*margin-bottom: 0 !important;*/
     }
 }
 @media screen and (min-width: 768px) {
