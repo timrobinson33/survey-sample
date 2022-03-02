@@ -93,10 +93,18 @@ h4.sv_p_title .sv-string-viewer {
 .sv-rating {
     margin-bottom: 1em;
 }
+.sv-rating {
+    border-left: 1px solid #dadada;
+    margin-top: -1px;
+    padding-top: 1px;
+}
 .sv-rating .sv-rating__item {
-    border: 1px solid #dadada;
-    border-right: 0;
+    border-top: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    /*border-right: 0;*/
     width: 90px;
+    margin-top: -1px;
     padding: 12px 8px;
     text-align: center;
     -webkit-transition: all 0.5s;
@@ -161,4 +169,7 @@ h4.sv_p_title .sv-string-viewer {
     margin-right: 0 !important;
     margin-left: 10px;
     float: right;
+}
+@media screen and (max-width: 480px) {
+
 }
