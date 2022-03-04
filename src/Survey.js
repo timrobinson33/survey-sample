@@ -51,14 +51,14 @@ export default function Survey() {
         type: "panel",
         title: `I am interested in why things are done in certain ways, and question beyond the obvious`,
         elements: [
-          { type: "rating", name: `s1.ability`, title: "My ability to perform", rateValues: abilityRateValues },
-          { type: "rating", name: `s1.importance`, title: "Importance to my work", rateValues: importanceRateValues },
+          { type: "rating", name: `s1.ability`, title: "My ability to perform", isRequired: true, rateValues: abilityRateValues },
+          { type: "rating", name: `s1.importance`, title: "Importance to my work", isRequired: true, rateValues: importanceRateValues },
         ]
       }, {
         type: "panel",
         title: `I am interested in why things are done in certain ways, and question beyond the obvious`,
         elements: [
-          { type: "rating", name: `s2.ability`, title: "My ability to perform", rateValues: abilityRateValues },
+          { type: "rating", name: `s2.ability`, title: "My ability to perform", isRequired: true, rateValues: abilityRateValues },
         ]
       }]
     }, {
@@ -69,15 +69,15 @@ export default function Survey() {
         type: "panel",
         title: `another statement`,
         elements: [
-          { type: "rating", name: `s3.ability`, title: "My ability to perform", rateValues: abilityRateValues },
-          { type: "rating", name: `s3.importance`, title: "Importance to my work", rateValues: importanceRateValues },
+          { type: "rating", name: `s3.ability`, title: "My ability to perform", isRequired: true, rateValues: abilityRateValues },
+          { type: "rating", name: `s3.importance`, title: "Importance to my work", isRequired: true, rateValues: importanceRateValues },
         ]
       }, {
         type: "panel",
         title: `another statement`,
         elements: [
-          { type: "rating", name: `s4.ability`, title: "My ability to perform", rateValues: abilityRateValues },
-          { type: "rating", name: `s4.importance`, title: "Importance to my work", rateValues: importanceRateValues },
+          { type: "rating", name: `s4.ability`, title: "My ability to perform", isRequired: true, rateValues: abilityRateValues },
+          { type: "rating", name: `s4.importance`, title: "Importance to my work", isRequired: true, rateValues: importanceRateValues },
         ]
       }]
     }]
