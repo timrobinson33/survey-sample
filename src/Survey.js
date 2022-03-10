@@ -4,6 +4,24 @@ import './Survey.css';
 
 StylesManager.applyTheme("bootstrap")
 
+
+const abilityRateValues = [
+  { value: 1, text: "Mininal" },
+  { value: 2, text: "Weak" },
+  { value: 3, text: "Adequate" },
+  { value: 4, text: "Good" },
+  { value: 5, text: "Strong" },
+]
+
+const importanceRateValues = [
+  { value: 1, text: "Not at all important" },
+  { value: 2, text: "Slightly important" },
+  { value: 3, text: "Important" },
+  { value: 4, text: "Very important" },
+  { value: 5, text: "Critical" },
+]
+
+
 export default function Survey() {
 
   //Custom survey classes
@@ -33,14 +51,14 @@ export default function Survey() {
         type: "panel",
         title: `I am interested in why things are done in certain ways, and question beyond the obvious`,
         elements: [
-          { type: "rating", name: `s1.ability`, title: "My ability to perform", },
-          { type: "rating", name: `s1.importance`, title: "Importance to my work", },
+          { type: "rating", name: `s1.ability`, title: "My ability to perform", isRequired: true, rateValues: abilityRateValues },
+          { type: "rating", name: `s1.importance`, title: "Importance to my work", isRequired: true, rateValues: importanceRateValues },
         ]
       }, {
         type: "panel",
         title: `I am interested in why things are done in certain ways, and question beyond the obvious`,
         elements: [
-          { type: "rating", name: `s2.ability`, title: "My ability to perform", },
+          { type: "rating", name: `s2.ability`, title: "My ability to perform", isRequired: true, rateValues: abilityRateValues },
         ]
       }]
     }, {
@@ -51,15 +69,15 @@ export default function Survey() {
         type: "panel",
         title: `another statement`,
         elements: [
-          { type: "rating", name: `s3.ability`, title: "My ability to perform", },
-          { type: "rating", name: `s3.importance`, title: "Importance to my work", },
+          { type: "rating", name: `s3.ability`, title: "My ability to perform", isRequired: true, rateValues: abilityRateValues },
+          { type: "rating", name: `s3.importance`, title: "Importance to my work", isRequired: true, rateValues: importanceRateValues },
         ]
       }, {
         type: "panel",
         title: `another statement`,
         elements: [
-          { type: "rating", name: `s4.ability`, title: "My ability to perform", },
-          { type: "rating", name: `s4.importance`, title: "Importance to my work", },
+          { type: "rating", name: `s4.ability`, title: "My ability to perform", isRequired: true, rateValues: abilityRateValues },
+          { type: "rating", name: `s4.importance`, title: "Importance to my work", isRequired: true, rateValues: importanceRateValues },
         ]
       }]
     }]
