@@ -114,6 +114,7 @@ h4.sv_p_title .sv-string-viewer {
     display: flex;
     align-items: center;
     justify-content: center;
+    float: left;
 }
 .sv-rating .sv-rating__item.sv-rating__item--selected {
     background-color: #608da2;
