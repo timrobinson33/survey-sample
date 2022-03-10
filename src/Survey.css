@@ -104,11 +104,16 @@ h4.sv_p_title .sv-string-viewer {
     border-bottom: 1px solid #dadada;
     /*border-right: 0;*/
     width: 90px;
+    height: 45px;
     margin-top: -1px;
-    padding: 12px 8px;
+    padding: 0 8px;
+    line-height: 0.9rem;
     text-align: center;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .sv-rating .sv-rating__item.sv-rating__item--selected {
     background-color: #608da2;
