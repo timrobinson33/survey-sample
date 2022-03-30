@@ -12,6 +12,7 @@ h4.sv_p_title {
 h4.sv_p_title .sv-string-viewer {
     margin-bottom: 0;
     font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 150%;
     text-transform: none;
 }
@@ -87,8 +88,12 @@ h4.sv_p_title .sv-string-viewer {
 
 }
 .sv_row .sv_row h5 {
+    margin-bottom: 0.85em;
     font-size: 0.9rem;
     font-weight: 400;
+}
+.sv_row .sv_row .small {
+    margin-bottom: 0;
 }
 .sv-rating {
     margin-bottom: 1em;
