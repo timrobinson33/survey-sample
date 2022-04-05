@@ -54,6 +54,8 @@ export default function ResultsTable() {
                     <ul>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                         <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
+                        <li>I am interested in why things are done in certain ways, and question beyond the obvious</li>
                     </ul>                
                 </div>
                 <div class="col-lg-3 col-md-4 pe-md-5 mb-3">
