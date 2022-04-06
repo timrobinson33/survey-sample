@@ -125,8 +125,8 @@ h5.icon-title {
         break-after: page;
     }
     .results-infowrapper {
-        break-inside: page;
-        display: table;
+        /*break-inside: page;
+        display: table;*/
     }
     .results-infowrapper.mb-5 {
         margin-bottom: 0 !important;
