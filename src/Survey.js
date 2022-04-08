@@ -107,7 +107,7 @@ export default function Survey() {
         </div>
       </div>
       <div className="App">
-        <div class="row w-100 m-0">
+        <div class="row w-100 m-0 container-survey">
           <div class="row m-0 p-0 justify-content-center">
             <SurveyJs
               json={surveyData}

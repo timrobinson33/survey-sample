@@ -133,8 +133,9 @@ h5.icon-title {
     }
     .results-inforow {
         width: 100%;
-        float: left;
-        display: table;
+        display: block;
+        page-break-inside: avoid !important;
+        overflow: hidden;
     }
     .results-inforow.mb-5 {
         margin-bottom: 0.25rem !important;
