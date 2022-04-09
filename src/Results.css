@@ -123,26 +123,36 @@ h5.icon-title {
     }
     .row.row-alt {
         break-after: page;
+        position: relative;
     }
     .results-infowrapper {
         /*break-inside: page;
         display: table;*/
+        border-bottom: none;
+        position: relative;
     }
     .results-infowrapper.mb-5 {
         margin-bottom: 0 !important;
     }
     .results-inforow {
         width: 100%;
-        display: block;
-        page-break-inside: avoid !important;
-        overflow: hidden;
+        display: table;
+        break-inside: avoid !important;
+        position: relative;
     }
     .results-inforow.mb-5 {
-        margin-bottom: 0.25rem !important;
+        margin-bottom: 2rem !important;
     }
     .results-inforow .result-rowheading {
+        break-before: page;
+    }
+    .results-inforow .result-rowheading, .results-inforow .result-rowinfo {
         width: 100%;
-        display: block;
+        display: inline-block;
+    }
+    .results-inforow .result-rowinfo div {
+        display: inline-block;
+        vertical-align: top;
     }
     .col-lg-3 {
         flex: 0 0 auto !important;
