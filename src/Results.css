@@ -148,7 +148,8 @@ h5.icon-title {
     }
     .results-inforow .result-rowheading, .results-inforow .result-rowinfo {
         width: 100%;
-        display: inline-block;
+        display: table;
+        position: relative;
     }
     .results-inforow .result-rowinfo div {
         display: inline-block;
