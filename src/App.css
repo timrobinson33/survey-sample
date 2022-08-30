@@ -38,7 +38,8 @@ p {
 p a {
     color: #4e4e4d;
     font-weight: 500;
-    text-decoration: none;
+    text-decoration: underline;
+    /*text-decoration: none;*/
 }
 p a:hover {
     color: #608da2;
