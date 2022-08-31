@@ -187,7 +187,7 @@ h5.icon-title {
     h5.icon-title {
         padding-left: 1rem;
     }
-    .member-button {
+    .member-button, .hideforprint {
         display: none;
     }
 }
