@@ -62,6 +62,20 @@ export default function Results() {
         <div class="row m-0 p-0 justify-content-center">
           <div class="col-12 d-flex justify-content-center">
             <ResultsTable />
+            <div class="row w-100 results-subtext">
+              <p>Your results are based on the gap between how important something is for 
+              your role and how well you think you are performing in that area. The bigger 
+              the gap, the larger the development need:</p>
+              <ul>
+                <li>Needs work indicates areas that are important for your role, in which 
+                your performance is weak</li>
+                <li>Room for improvement indicates areas that are important for your role, 
+                in which your performance is average</li>
+                <li>Doing great indicates either areas that are important for your role where 
+                your performance is strong, or areas that are not important for your role and 
+                as such there is no development need</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
