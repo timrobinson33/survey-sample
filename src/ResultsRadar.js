@@ -21,7 +21,7 @@ ChartJS.register(
     Legend
 );
 
-defaults.font.size = 16;
+defaults.font.size = 12;
 
 export default function ResultsRadar() {
 
