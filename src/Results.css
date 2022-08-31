@@ -140,6 +140,8 @@ h5.icon-title {
         display: table;
         border-bottom: none;*/
         position: relative;
+        overflow: hidden;
+        display: block;
     }
     .results-infowrapper.mb-4 {
         margin-bottom: 2rem !important;
@@ -164,6 +166,10 @@ h5.icon-title {
     .results-inforow .result-rowinfo div {
         display: inline-block;
         vertical-align: top;
+    }
+    .results-subtext {
+        float: left;
+        display: block;
     }
     .col-lg-3 {
         flex: 0 0 auto !important;
