@@ -2,7 +2,7 @@ import doinggreat from './img/dial_doing_great.svg';
 import needswork from './img/dial_needs_work.svg';
 import forimprovement from './img/dial_for_improvement.svg';
 export default function ResultsTable() {
-    return <div class="row w-100 mb-5 results-infowrapper">
+    return <div class="row w-100 mb-4 results-infowrapper">
         <div class="results-inforow mb-5">
             <div class="result-rowheading">
                 <h4 class="mb-4 pb-3">Curiosity</h4>

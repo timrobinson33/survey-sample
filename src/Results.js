@@ -63,7 +63,7 @@ export default function Results() {
           <div class="col-12 d-flex justify-content-center">
             <ResultsTable />
           </div>
-          <div class="row w-100 results-subtext">
+          <div class="row w-100 mb-5 results-subtext">
             <p>Your results are based on the gap between how important something is for 
             your role and how well you think you are performing in that area. The bigger 
             the gap, the larger the development need:</p>

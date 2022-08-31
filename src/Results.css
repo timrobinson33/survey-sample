@@ -70,6 +70,9 @@ h5.icon-title {
     padding-left: 15px !important;
     padding-right: 15px !important;
 }
+.results-subtext ul {
+    padding-left: 2rem;
+}
 
 @media screen and (min-width: 992px) {
     .dial-column.text-center {
