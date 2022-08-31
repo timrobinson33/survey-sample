@@ -55,7 +55,7 @@ export default function ResultsRadar() {
                     usePointStyle: true,
                     pointStyle: 'circle',
                     font: {
-                        size: 12,
+                        size: 16,
                         family: "'Open Sans', sans-serif",
                         weight: 600,
                     }
