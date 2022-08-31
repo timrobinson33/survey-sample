@@ -66,7 +66,8 @@ h5.icon-title {
 
 /* Results subtext */
 .results-subtext {
-    border-bottom: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    padding-top: 2rem;
     padding-left: 15px !important;
     padding-right: 15px !important;
 }
@@ -140,16 +141,16 @@ h5.icon-title {
         display: table;*/
         border-bottom: none;
         position: relative;
-        clear: both;
     }
     .results-infowrapper.mb-4 {
-        margin-bottom: 2rem !important;
+        margin-bottom: 0rem !important;
     }
     .results-inforow {
         width: 100%;
-        display: table;
+        display: block;
         break-inside: avoid !important;
         position: relative;
+        overflow: hidden;
     }
     .results-inforow.mb-5 {
         margin-bottom: 2rem !important;
@@ -162,6 +163,9 @@ h5.icon-title {
         display: table;
         position: relative;
     }
+    .results-inforow .result-rowinfo {
+        overflow: hidden;
+    }
     .results-inforow .result-rowinfo div {
         display: inline-block;
         vertical-align: top;
@@ -170,7 +174,6 @@ h5.icon-title {
         border-top: 1px solid #dadada;
         margin-top: 2rem;
         padding: 1.75rem 0 1rem;
-        display: table;
     }
     .col-lg-3 {
         flex: 0 0 auto !important;
