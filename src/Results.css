@@ -140,8 +140,7 @@ h5.icon-title {
         display: table;*/
         border-bottom: none;
         position: relative;
-        overflow: hidden;
-        display: block;
+        clear: both;
     }
     .results-infowrapper.mb-4 {
         margin-bottom: 2rem !important;
@@ -170,6 +169,7 @@ h5.icon-title {
     .results-subtext {
         border-top: 1px solid #dadada;
         margin-top: 2rem;
+        padding: 1.75rem 0 1rem;
         display: table;
     }
     .col-lg-3 {
