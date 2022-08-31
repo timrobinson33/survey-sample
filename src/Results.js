@@ -56,7 +56,9 @@ export default function Results() {
           quis nostrud exercitation ullamco labo. Lorem ipsum dolor sit ameconsectetur
           adipi scing elit, sed do eiusmod tempor incid dunt ut labore et dolore
           magna aliqu ut <a href="#">enim ad</a>.</p>
-          <a class="member-button-link" href="javascript:if(window.print)window.print()">Print to PDF</a>
+          <div class="print-tools hideforprint">
+            <a class="member-button-link" href="javascript:if(window.print)window.print()">Print to PDF</a>
+          </div>
         </div>
       </div>
       <div class="row w-100 m-0">
