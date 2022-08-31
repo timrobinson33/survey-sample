@@ -39,6 +39,18 @@ export default function Results() {
           <ResultsRadar />
         </div>
         <div class="container container-alt col-md-6 mb-4 px-md-4 results-description">
+          <p>Your results are based on the gap between how important something is for 
+          your role and how well you think you are performing in that area. The bigger 
+          the gap, the larger the development need:</p>
+          <ul>
+            <li>Needs work indicates areas that are important for your role, in which 
+            your performance is weak</li>
+            <li>Room for improvement indicates areas that are important for your role, 
+            in which your performance is average</li>
+            <li>Doing great indicates either areas that are important for your role where 
+            your performance is strong, or areas that are not important for your role and 
+            as such there is no development need</li>
+          </ul>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incid dunt ut labore et dolore magna aliqu ut enim ad minim veniam,
           quis nostrud exercitation ullamco labo. Lorem ipsum dolor sit ameconsectetur
