@@ -7,6 +7,7 @@ import {
     Filler,
     Tooltip,
     Legend,
+    defaults,
 } from 'chart.js';
 import { CloseButton } from 'react-bootstrap';
 import { reduce } from 'lodash';
@@ -20,6 +21,8 @@ ChartJS.register(
     Legend
 );
 
+defaults.font.size = 16;
+
 export default function ResultsRadar() {
 
     const radarData = {
@@ -31,10 +34,6 @@ export default function ResultsRadar() {
                 backgroundColor: 'rgba(173, 93, 58, 0.1)',
                 borderColor: 'rgba(173, 93, 58, 1)',
                 color: '#000',
-                font: {
-                    size: 14,
-                    family: "'Open Sans', sans-serif",
-                }
             },
             {
                 label: 'IMPORTANCE',
@@ -42,10 +41,6 @@ export default function ResultsRadar() {
                 backgroundColor: 'rgba(96, 141, 162, 0.1)',
                 borderColor: 'rgba(96, 141, 162, 1)',
                 color: '#000',
-                font: {
-                    size: 14,
-                    family: "'Open Sans', sans-serif",
-                }
             },
         ]
     }
