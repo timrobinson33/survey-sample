@@ -34,14 +34,6 @@ h5.icon-title {
     height: auto;
 }
 
-/* Results description */
-.results-description ul li {
-    margin-bottom: 0.5rem;
-    font-size: 0.9rem;
-    font-weight: 400;
-    line-height: 150%;
-}
-
 /* Results table */
 .results-infowrapper {
     border-bottom: 1px solid #dadada;

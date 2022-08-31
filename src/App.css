@@ -44,6 +44,12 @@ p a {
 p a:hover {
     color: #608da2;
 }
+ul li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 150%;
+}
 .container.container-alt {
     position: relative;
     margin-left: auto;
