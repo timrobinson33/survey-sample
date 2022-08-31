@@ -137,12 +137,12 @@ h5.icon-title {
     }
     .results-infowrapper {
         /*break-inside: page;
-        display: table;*/
-        border-bottom: none;
+        display: table;
+        border-bottom: none;*/
         position: relative;
     }
-    .results-infowrapper.mb-5 {
-        margin-bottom: 0 !important;
+    .results-infowrapper.mb-4 {
+        margin-bottom: 2rem !important;
     }
     .results-inforow {
         width: 100%;
