@@ -68,7 +68,7 @@ h5.icon-title {
 
 /* Results grid */
 .results-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.5em;
 }
 .results-grid .grid-item h5 {
@@ -127,6 +127,11 @@ h5.icon-title {
     }
     .results-grid .grid-item h5 {
         min-height: auto;
+    }
+}
+@media screen and (min-width: 500px) {
+    .results-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 }
 
