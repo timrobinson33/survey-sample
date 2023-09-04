@@ -2,6 +2,7 @@ import './Results.css';
 import { Link } from 'react-router-dom'
 import ResultsRadar from './ResultsRadar';
 import ResultsTable from './ResultsTable';
+import DutyTable from './DutyTable';
 
 export default function Results() {
 
@@ -26,6 +27,7 @@ export default function Results() {
               quis nostrud exercitation ullamco labo. Lorem ipsum dolor sit ameconsectetur
               adipi scing elit, sed do eiusmod tempor incid dunt ut labore et dolore
               magna aliqu ut <a href="#">enim ad</a>.</p>
+              <p>The consumer duty bit goes here <a href="#consumer-duty-report">enim ad</a>.</p>
           </div>
         </div>
       </div>
@@ -67,6 +69,27 @@ export default function Results() {
           </div>        
           <div class="col-12 d-flex justify-content-center">
             <ResultsTable />
+          </div>
+          <div class="row w-100 mt-5 mb-5 duty-infowrapper">
+            <div class="results-inforow mb-5">
+              <div class="row w-100">
+                <div class="results-heading">
+                    <h4 class="mb-4 pb-3">Consumer duty report</h4>
+                </div>
+              </div>
+              <div class="row result-rowinfo">
+                <div class="col-lg-12 mb-5">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incid dunt ut labore et dolore magna aliqu ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco labo. Lorem ipsum dolor sit ameconsectetur
+                  adipi scing elit, sed do eiusmod tempor incid dunt ut labore et dolore
+                  magna aliqu ut.</p>               
+                </div>
+              </div>
+              <div class="col-12 d-flex justify-content-center">
+                <DutyTable />
+              </div>
+            </div>
           </div>
         </div>
       </div>

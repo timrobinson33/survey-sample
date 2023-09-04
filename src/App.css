@@ -96,6 +96,9 @@ ul li {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
+.member-button-link.with-spacing {
+    margin: 0 1em;
+}
 .member-button-link:hover {
     background-color: #608da2;
     color: #FFF;

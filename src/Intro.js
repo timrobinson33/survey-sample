@@ -29,7 +29,8 @@ export default function Intro({ respondent, competencies }) {
         <div class="container container-alt">
           <div class="row">
             <div class="col-12 text-center">
-              <Link class="member-button-link" to='/survey-sample/survey'>do the survey</Link>
+              <Link class="member-button-link with-spacing" to='/survey-sample/survey'>do the survey</Link>
+              <Link class="member-button-link with-spacing" to='/survey-sample/survey'>Link two</Link>
             </div>
           </div>
         </div>
