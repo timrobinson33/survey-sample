@@ -99,13 +99,14 @@ h5.icon-title {
     print-color-adjust: exact !important;
 }
 .grade-great {
-    background-color: #F84B26;
+    background-color: #C06519;
+    background-color: rgba(192, 101, 25, 1);
 }
 .grade-moderate {
-    background-color: #F8B426;
+    background-color: rgba(192, 101, 25, 0.75);
 }
 .grade-some {
-    background-color: #FAEE5E;
+    background-color: rgba(192, 101, 25, 0.5);
 }
 .grade-none {
     background-color: white;
