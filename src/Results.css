@@ -66,6 +66,25 @@ h5.icon-title {
     line-height: 150%;
 }
 
+/* Results key */
+.results-keyrow {
+    overflow: hidden;
+}
+.key-box {
+    border: 1px solid #676767;
+    width: 24px !important;
+    height: 24px;
+    display: inline-block;
+    print-color-adjust: exact !important;
+}
+.key-description {
+    width: auto !important;
+    margin-left: 0.5em;
+    padding-top: 3px;
+    font-size: 14px;
+    display: inline-block;
+}
+
 /* Results grid */
 .results-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -80,13 +99,13 @@ h5.icon-title {
     print-color-adjust: exact !important;
 }
 .grade-great {
-    background-color: red;
+    background-color: #F84B26;
 }
 .grade-moderate {
-    background-color: orange;
+    background-color: #F8B426;
 }
 .grade-some {
-    background-color: yellow;
+    background-color: #FAEE5E;
 }
 .grade-none {
     background-color: white;

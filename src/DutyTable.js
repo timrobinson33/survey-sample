@@ -1,6 +1,25 @@
 export default function DutyTable() {
     return <div class="row w-100 mb-4 results-infowrapper duty-wrapper">
         <div class="results-inforow mb-5">
+            <h5 class="statement-title"><strong>KEY:</strong></h5>
+            <div class="row results-keyrow mb-1">
+                <span class="key-box grade-great"></span>
+                <span class="key-description">Great</span>
+            </div>
+            <div class="row results-keyrow mb-1">
+                <span class="key-box grade-moderate"></span>
+                <span class="key-description">Moderate</span>
+            </div>
+            <div class="row results-keyrow mb-1">
+                <span class="key-box grade-some"></span>
+                <span class="key-description">Some</span>
+            </div>
+            <div class="row results-keyrow mb-1">
+                <span class="key-box grade-none"></span>
+                <span class="key-description">None</span>
+            </div>
+        </div>
+        <div class="results-inforow mb-5">
             <div class="result-rowheading">
                 <h4 class="mb-4 pb-3">Curiosity</h4>
             </div>

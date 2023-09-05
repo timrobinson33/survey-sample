@@ -78,7 +78,7 @@ export default function Results() {
                 </div>
               </div>
               <div class="row result-rowinfo">
-                <div class="col-lg-12 mb-5">
+                <div class="col-lg-12 mb-1">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                   tempor incid dunt ut labore et dolore magna aliqu ut enim ad minim veniam,
                   quis nostrud exercitation ullamco labo. Lorem ipsum dolor sit ameconsectetur
