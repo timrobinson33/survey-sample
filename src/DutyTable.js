@@ -3,19 +3,35 @@ export default function DutyTable() {
         <div class="results-inforow mb-5">
             <h5 class="statement-title"><strong>KEY:</strong></h5>
             <div class="row results-keyrow mb-1">
-                <span class="key-box grade-great"></span>
+                <span class="key-box grade-great">
+                    <svg width="500" height="25">
+                        <rect width="500" height="25" />
+                    </svg>
+                </span>
                 <span class="key-description">Great</span>
             </div>
             <div class="row results-keyrow mb-1">
-                <span class="key-box grade-moderate"></span>
+                <span class="key-box grade-moderate">
+                    <svg width="500" height="25">
+                        <rect width="500" height="25" />
+                    </svg>
+                </span>
                 <span class="key-description">Moderate</span>
             </div>
             <div class="row results-keyrow mb-1">
-                <span class="key-box grade-some"></span>
+                <span class="key-box grade-some">
+                    <svg width="500" height="25">
+                        <rect width="500" height="25" />
+                    </svg>
+                </span>
                 <span class="key-description">Some</span>
             </div>
             <div class="row results-keyrow mb-1">
-                <span class="key-box grade-none"></span>
+                <span class="key-box grade-none">
+                    <svg width="500" height="25">
+                        <rect width="500" height="25" />
+                    </svg>
+                </span>
                 <span class="key-description">None</span>
             </div>
         </div>
@@ -31,19 +47,35 @@ export default function DutyTable() {
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Customer understanding</h5>
-                            <span class="col-12 d-block grade-element grade-great"></span>
+                            <span class="col-12 d-block grade-element grade-great">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Price and Value</h5>
-                            <span class="col-12 d-block grade-element grade-moderate"></span>
+                            <span class="col-12 d-block grade-element grade-moderate">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Products and Services</h5>
-                            <span class="col-12 d-block grade-element grade-some"></span>
+                            <span class="col-12 d-block grade-element grade-some">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Customer Support</h5>
-                            <span class="col-12 d-block grade-element grade-none"></span>
+                            <span class="col-12 d-block grade-element grade-none">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                     </div>              
                 </div>
@@ -54,19 +86,35 @@ export default function DutyTable() {
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Customer understanding</h5>
-                            <span class="col-12 d-block grade-element grade-great"></span>
+                            <span class="col-12 d-block grade-element grade-great">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Price and Value</h5>
-                            <span class="col-12 d-block grade-element grade-moderate"></span>
+                            <span class="col-12 d-block grade-element grade-moderate">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Products and Services</h5>
-                            <span class="col-12 d-block grade-element grade-some"></span>
+                            <span class="col-12 d-block grade-element grade-some">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Customer Support</h5>
-                            <span class="col-12 d-block grade-element grade-none"></span>
+                            <span class="col-12 d-block grade-element grade-none">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                     </div>              
                 </div>
@@ -107,19 +155,35 @@ export default function DutyTable() {
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Customer understanding</h5>
-                            <span class="col-12 d-block grade-element grade-great"></span>
+                            <span class="col-12 d-block grade-element grade-great">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Price and Value</h5>
-                            <span class="col-12 d-block grade-element grade-moderate"></span>
+                            <span class="col-12 d-block grade-element grade-moderate">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Products and Services</h5>
-                            <span class="col-12 d-block grade-element grade-some"></span>
+                            <span class="col-12 d-block grade-element grade-some">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Customer Support</h5>
-                            <span class="col-12 d-block grade-element grade-none"></span>
+                            <span class="col-12 d-block grade-element grade-none">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                     </div>              
                 </div>
@@ -130,19 +194,35 @@ export default function DutyTable() {
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Customer understanding</h5>
-                            <span class="col-12 d-block grade-element grade-great"></span>
+                            <span class="col-12 d-block grade-element grade-great">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Price and Value</h5>
-                            <span class="col-12 d-block grade-element grade-moderate"></span>
+                            <span class="col-12 d-block grade-element grade-moderate">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Products and Services</h5>
-                            <span class="col-12 d-block grade-element grade-some"></span>
+                            <span class="col-12 d-block grade-element grade-some">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Customer Support</h5>
-                            <span class="col-12 d-block grade-element grade-none"></span>
+                            <span class="col-12 d-block grade-element grade-none">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                     </div>              
                 </div>
@@ -160,19 +240,35 @@ export default function DutyTable() {
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Customer understanding</h5>
-                            <span class="col-12 d-block grade-element grade-great"></span>
+                            <span class="col-12 d-block grade-element grade-great">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Price and Value</h5>
-                            <span class="col-12 d-block grade-element grade-moderate"></span>
+                            <span class="col-12 d-block grade-element grade-moderate">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Products and Services</h5>
-                            <span class="col-12 d-block grade-element grade-some"></span>
+                            <span class="col-12 d-block grade-element grade-some">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Customer Support</h5>
-                            <span class="col-12 d-block grade-element grade-none"></span>
+                            <span class="col-12 d-block grade-element grade-none">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                     </div>              
                 </div>
@@ -183,19 +279,35 @@ export default function DutyTable() {
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Customer understanding</h5>
-                            <span class="col-12 d-block grade-element grade-great"></span>
+                            <span class="col-12 d-block grade-element grade-great">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Price and Value</h5>
-                            <span class="col-12 d-block grade-element grade-moderate"></span>
+                            <span class="col-12 d-block grade-element grade-moderate">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item odd">
                             <h5 class="statement-title">Products and Services</h5>
-                            <span class="col-12 d-block grade-element grade-some"></span>
+                            <span class="col-12 d-block grade-element grade-some">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                         <div class="grid-item even">
                             <h5 class="statement-title">Customer Support</h5>
-                            <span class="col-12 d-block grade-element grade-none"></span>
+                            <span class="col-12 d-block grade-element grade-none">
+                                <svg width="500" height="25">
+                                    <rect width="500" height="25" />
+                                </svg>
+                            </span>
                         </div>
                     </div>              
                 </div>
